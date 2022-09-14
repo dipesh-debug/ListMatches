@@ -130,7 +130,7 @@ class App extends React.Component {
 
 		return (
 		<div className = "App">
-			<h1> List of Matches with their Embed code </h1> {
+			<h1> List of Matches </h1> {
 				datas.map((data) => (
 				<ul >
           <li>Match_id:{data.id},</li>
